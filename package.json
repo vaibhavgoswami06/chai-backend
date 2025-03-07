@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Learning to create complex backend system",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "chai",
@@ -12,5 +14,9 @@
     "backend"
   ],
   "author": "vaibhav goswami",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prettier": "^3.5.3"
+  }
 }

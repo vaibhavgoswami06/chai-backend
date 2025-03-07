@@ -1,0 +1,1 @@
+* you can get idea about what to keep in gitignore, according to your stack, by visiting to a .gitignore generator on web
